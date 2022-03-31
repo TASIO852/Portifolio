@@ -1,0 +1,194 @@
+#myNavbar {
+    background-color: #1b1b19;
+    color: whitesmoke;
+}
+
+
+/* animamaçao de escrever */
+
+#typing {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#text {
+    font-size: 40px;
+    font-weight: 100;
+    color: whitesmoke;
+}
+
+#bar {
+    animation: animate 0.5s infinite linear;
+    font-size: 60px;
+    font-weight: 100;
+    color: whitesmoke;
+}
+
+@keyframes animate {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+
+/* animamaçao de escrever */
+
+#button {
+    background-color: #3c3b38;
+    color: #9da1a1;
+}
+
+#about {
+    background-color: #1e1e1c;
+    color: whitesmoke;
+}
+
+#promo {
+    background-color: #252422;
+}
+
+.scrollEquipe {
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.scroll-wraper {
+    width: 100%;
+}
+
+.sobre-autor {
+    float: left;
+    width: 100%;
+    height: 250px;
+    padding: 0 30px;
+    align-items: center;
+}
+
+.titulo-autor {
+    float: left;
+    width: 100%;
+}
+
+.titulo-autor .img-autor img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    margin: 0 auto;
+    width: 85%;
+    height: 250px;
+    background-color: transparent;
+}
+
+.slider-bullets {
+    width: 100%;
+    float: left;
+    padding-left: 48%;
+    margin-top: 30px;
+}
+
+.slider-bullets span {
+    position: relative;
+    display: flex;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-right: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: rgb(200, 200, 200);
+}
+
+#team {
+    background-color: #1e1e1c;
+    color: whitesmoke;
+}
+
+#team button {
+    background-color: #3c3b38;
+    color: whitesmoke;
+}
+
+#Statistics {
+    background-color: #53514D;
+    color: whitesmoke;
+}
+
+#work {
+    background-color: #191918;
+    color: whitesmoke;
+}
+
+#skil {
+    background-color: #252422;
+    color: whitesmoke;
+}
+
+#pricing {
+    background-color: #53514D;
+    color: whitesmoke;
+}
+
+#pricing ul li {
+    background-color: #41403d;
+    color: whitesmoke;
+}
+
+#comprar {
+    background-color: #252422;
+}
+
+#meio {
+    background-color: #808080;
+    color: whitesmoke;
+}
+
+#contact {
+    background-color: #1b1b19;
+    color: #53514D;
+}
+
+#contato {
+    text-align: center;
+    color: #9da1a1;
+}
+
+#form input {
+    background-color: #3c3b38;
+    color: whitesmoke;
+    border: #191918;
+}
+
+#link a {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.map-wraper h2 {
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.map-wraper2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map {
+    width: 500px;
+    height: 500px;
+    background: white;
+    border: 5px solid rgb(200, 200, 200);
+}
