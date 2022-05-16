@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="description" content="Conteúdo do meu site.">
-    <meta charset="keywords" content="Data science,Dados,python,PowerBi,Tableau">
+    <meta charset="keywords" content="Data science,Dados,python,PowerBi,Tableau,analise">
     <meta charset="author" content="Tasio Breno santos Guimarães" />
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="/Portifolio/favicon/android-icon-36x36.png">
-    <link rel="stylesheet" href="/Portifolio/css/style.css">
+    <link type="image/png" sizes="96x96" rel="icon" href="img/icons8-tubo-de-ensaio-96 (1).png">
+
     <style>
         body,
         h1,
@@ -22,7 +23,7 @@
         h4,
         h5,
         h6 {
-            font-family: "Raleway", sans-serif
+            font-family: 'Roboto Mono', monospace;
         }
         
         body,
@@ -54,8 +55,8 @@
             <!-- Menu responsivo -->
             <nav class="w3-right w3-hide-small">
                 <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-address-card-o"></i> SOBRE</a>
-                <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-desktop"></i> TECH</a>
                 <a href="#promo" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+                <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-desktop"></i> TECH</a>
                 <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
             </nav>
             <!-- menu icon responsivo -->
@@ -70,24 +71,28 @@
         <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close
             ×</a>
         <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">SOBRE</a>
-        <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TECH</a>
         <a href="#promo" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+        <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TECH</a>
         <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
     </nav>
 
     <!-- Header imagem com text animation-->
     <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
         <div id="typing">
-            <p id="text" class="w3-jumbo w3-hide-small"></p>
+            <p id="text"></p>
             <div id="bar">_</div>
         </div>
         <div class="w3-display-bottommiddle w3-text-white" style="padding:48px">
-            <p><a href="#about" id="button" class="w3-button w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Venha me conhecer</a></p>
+            <p><a href="#about" id="button" class="w3-button w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Venha me
+                    conhecer</a></p>
         </div>
         <div id="link" class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
-            <a href="https://www.facebook.com/profile.php?id=100006122689492" class="w3-hover-opacity"><i class="fa fa-facebook-official"></i></a>
-            <a href="https://www.instagram.com/tasio_santos/?hl=pt-br" class="w3-hover-opacity"><i class="fa fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/tasio-santos-208b34196/" class="w3-hover-opacity"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100006122689492" class="w3-hover-opacity"><i
+                    class="fa fa-facebook-official"></i></a>
+            <a href="https://www.instagram.com/tasio_santos/?hl=pt-br" class="w3-hover-opacity"><i
+                    class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/tasio-santos-208b34196/" class="w3-hover-opacity"><i
+                    class="fa fa-linkedin"></i></a>
             <a href="https://github.com/TASIO852" class="w3-hover-opacity"><i class="fa fa-github"></i></i></a>
         </div>
     </header>
@@ -109,13 +114,15 @@
             <div class="w3-quarter">
                 <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
                 <p class="w3-large">Design</p>
-                <p>Design 100% intuitivo e de fácil entendimento para ter os dados de forma precisa e direta em suas mãos.</p>
+                <p>Design 100% intuitivo e de fácil entendimento para ter os dados de forma precisa e direta em suas mãos.
+                </p>
 
             </div>
             <div class="w3-quarter">
                 <i class="fa fa-code w3-margin-bottom w3-jumbo"></i>
                 <p class="w3-large">Code</p>
-                <p>Códigos em python que iram ajudar nas analises feitas dando dinamismo e precisão com machine Learn.</p>
+                <p>Códigos em python que iram ajudar nas analises feitas dando dinamismo e precisão com machine Learn.
+                </p>
             </div>
         </div>
     </div>
@@ -126,7 +133,9 @@
             <div class="w3-col m6">
                 <h3>Conheça meu design.</h3>
                 <p>Veja mais sobre meu trabalho acessando me repositório publico do Power Bi e comprove você mesmo os gráficos e analises feitas.</p>
-                <p><a href="https://app.powerbi.com/home" class="w3-button w3-black"><i class="fa fa-th"></i> Conheça meu Trabalho</a></p>
+                <p><a id="Pwb" href="https://app.powerbi.com/home" class="w3-button w3-black"><i class="fa fa-th"></i>
+                        Conheça
+                        meu Trabalho</a></p>
                 <!-- link do meu Power bi -->
             </div>
             <div class="w3-col m6">
@@ -135,7 +144,7 @@
                         <div class="sobre-autor">
                             <div class="titulo-autor">
                                 <div class="img-autor">
-                                    <img src="/Portifolio/img/tech_drone.jpg" alt="Buildings" width="700" height="394">
+                                    <img src="/img/tech_drone.jpg" alt="Buildings" width="100%" height="400">
                                 </div>
                             </div>
                             <!--titulo-autor-->
@@ -144,7 +153,7 @@
                         <div class="sobre-autor">
                             <div class="titulo-autor">
                                 <div class="img-autor">
-                                    <img src="/Portifolio/img/tech_phone.jpg" alt="Buildings" width="700" height="394">
+                                    <img src="/img/tech_phone.jpg" alt="Buildings" width="100%" height="400">
                                 </div>
                             </div>
                             <!--titulo-autor-->
@@ -153,7 +162,7 @@
                         <div class="sobre-autor">
                             <div class="titulo-autor">
                                 <div class="img-autor">
-                                    <img src="/Portifolio/img/tech_tablet.jpg" alt="Buildings" width="700" height="394">
+                                    <img src="/img/tech_tablet.jpg" alt="Buildings" width="100%" height="400">
                                 </div>
                             </div>
                             <!--titulo-autor-->
@@ -285,10 +294,11 @@
             <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: tasiosantos0@gmail.com</p>
             <br>
             <form id="form" target="_blank">
-                <p><input class="w3-input w3-border" type="text" placeholder="Nome" required name="Nome"></p>
-                <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-                <p><input class="w3-input w3-border" type="text" placeholder="Telefone" required name="Telefone"></p>
-                <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+                <p><input class="w3-input w3-border" id="Nome" type="text" placeholder="Nome" required name="Nome"></p>
+                <p><input class="w3-input w3-border" id="Email" type="text" placeholder="Email" required name="Email">
+                </p>
+                <p><input class="w3-input w3-border" id="Telefone" type="text" placeholder="Telefone" required name="Telefone"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message"></p>
                 <p>
                     <button class="w3-button w3-black" type="submit">
                         <i class="fa fa-paper-plane"></i> ENVIAR MENSAGEM
@@ -334,23 +344,31 @@
 
     <!-- Footer -->
     <footer class="w3-center w3-black w3-padding-64">
-        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Voltar para o Topo</a>
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Voltar para o
+            Topo</a>
         <div id="link" class="w3-xlarge w3-section">
-            <a href="https://www.facebook.com/profile.php?id=100006122689492" class="w3-hover-opacity"><i class="fa fa-facebook-official"></i></a>
-            <a href="https://www.instagram.com/tasio_santos/?hl=pt-br" class="w3-hover-opacity"><i class="fa fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/tasio-santos-208b34196/" class="w3-hover-opacity"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100006122689492" class="w3-hover-opacity"><i
+                    class="fa fa-facebook-official"></i></a>
+            <a href="https://www.instagram.com/tasio_santos/?hl=pt-br" class="w3-hover-opacity"><i
+                    class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/tasio-santos-208b34196/" class="w3-hover-opacity"><i
+                    class="fa fa-linkedin"></i></a>
             <a href="https://github.com/TASIO852" class="w3-hover-opacity"><i class="fa fa-github"></i></i></a>
         </div>
     </footer>
-
+    <!-- backend -->
+    <script src="/js/index.js"></script>
+    <!-- google maps -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnv7y3NuVB3H7-6XXXbtFUYOsvWql_d-8&"></script>
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery.ajaxform.js"></script>
-    <script src="js/slide_toggle.js"></script>
-    <script src="js/digitando.js"></script>
-    <script src="js/slider.js"></script>
-    <script src="js/formulario.js"></script>
 
+    <!-- interação no site e designer -->
+    <script src="js/page/jquery.js"></script>
+    <script src="js/page/slide_toggle.js"></script>
+    <script src="js/page/digitando.js"></script>
+    <script src="js/page/slider.js"></script>
+    <script src="js/page/formulario.js"></script>
+
+    <!-- sidebar dinâmica -->
     <script>
         // Modal Image Gallery
         function onClick(element) {
@@ -359,7 +377,6 @@
             var captionText = document.getElementById("caption");
             captionText.innerHTML = element.alt;
         }
-
 
         // Toggle between showing and hiding the sidebar when clicking the menu icon
         var mySidebar = document.getElementById("mySidebar");
