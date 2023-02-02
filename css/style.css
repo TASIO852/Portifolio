@@ -1,220 +1,344 @@
 #myNavbar {
-    background-color: #1b1b19;
-    color: whitesmoke;
+  background-color: #1b1b19;
+  color: whitesmoke;
 }
-
 
 /* animamaçao de escrever */
 
 #typing {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #text {
-    font-size: 40px;
-    font-weight: 100;
-    color: whitesmoke;
+  font-size: 40px;
+  font-weight: 100;
+  color: whitesmoke;
 }
 
 #bar {
-    animation: animate 0.5s infinite linear;
-    font-size: 30px;
-    font-weight: 100;
-    color: whitesmoke;
+  animation: animate 0.5s infinite linear;
+  font-size: 30px;
+  font-weight: 100;
+  color: whitesmoke;
 }
 
 @keyframes animate {
-    0%,
-    100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
-
 
 /* animamaçao de escrever */
 
 #button {
-    background-color: #3c3b38;
-    color: #9da1a1;
+  background-color: #3c3b38;
+  color: #9da1a1;
 }
 
 #about {
-    background-color: #1e1e1c;
-    color: whitesmoke;
+  background-color: #1e1e1c;
+  color: whitesmoke;
 }
 
 #promo {
-    background-color: #252422;
-    color: whitesmoke;
+  background-color: #252422;
+  color: whitesmoke;
 }
 
 .scrollEquipe {
-    padding-left: 20px;
-    overflow: hidden;
+  padding-left: 20px;
+  overflow: hidden;
 }
 
 .scroll-wraper {
-    width: 100%;
+  width: 100%;
 }
 
 .sobre-autor {
-    float: left;
-    width: 100%;
-    height: 250px;
-    padding: 0 30px;
-    align-items: center;
+  float: left;
+  width: 100%;
+  height: 250px;
+  padding: 0 30px;
+  align-items: center;
 }
 
 .titulo-autor {
-    float: left;
-    width: 100%;
+  float: left;
+  width: 100%;
 }
 
 .titulo-autor .img-autor img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px;
-    margin: 0 auto;
-    width: 85%;
-    height: 250px;
-    background-color: transparent;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  margin: 0 auto;
+  width: 85%;
+  height: 250px;
+  background-color: transparent;
 }
 
 .slider-bullets {
-    width: 100%;
-    float: left;
-    padding-left: 48%;
-    margin-top: 30px;
+  width: 100%;
+  float: left;
+  padding-left: 48%;
+  margin-top: 30px;
 }
 
 .slider-bullets span {
-    position: relative;
-    display: flex;
-    width: 16px;
-    height: 16px;
-    float: left;
-    margin-right: 8px;
-    cursor: pointer;
-    border-radius: 8px;
-    background-color: rgb(200, 200, 200);
+  position: relative;
+  display: flex;
+  width: 16px;
+  height: 16px;
+  float: left;
+  margin-right: 8px;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: rgb(200, 200, 200);
 }
 
 #team {
-    background-color: #1e1e1c;
-    color: whitesmoke;
+  background-color: #1e1e1c;
+  color: whitesmoke;
 }
 
 #team button {
-    background-color: #3c3b38;
-    color: whitesmoke;
+  background-color: #3c3b38;
+  color: whitesmoke;
 }
 
 #Statistics {
-    background-color: #53514D;
-    color: whitesmoke;
+  background-color: #53514d;
+  color: whitesmoke;
 }
 
 #work {
-    background-color: #191918;
-    color: whitesmoke;
+  background-color: #191918;
+  color: whitesmoke;
 }
 
 #skil {
-    background-color: #252422;
-    color: whitesmoke;
+  background-color: #252422;
+  color: whitesmoke;
 }
 
 #pricing {
-    background-color: #53514D;
-    color: whitesmoke;
+  background-color: #53514d;
+  color: whitesmoke;
 }
 
 #pricing ul li {
-    background-color: #41403d;
-    color: whitesmoke;
+  background-color: #41403d;
+  color: whitesmoke;
 }
 
 #comprar {
-    background-color: #252422;
+  background-color: #252422;
 }
 
 #meio {
-    background-color: #808080;
-    color: whitesmoke;
+  background-color: #808080;
+  color: whitesmoke;
 }
 
+/* Formulario */
+
+/* #register {
+  text-align: center;
+  color: #9da1a1;
+}
+
+#regForm {
+  background-color: #252422;
+  margin: auto;
+  padding: 100px;
+  width: 100%;
+  min-width: 300px;
+}
+
+Style the input fields
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #9da1a1;
+}
+
+Mark input boxes that gets an error on validation:
+input.invalid {
+  background-color: #ffdddd;
+}
+
+Hide all steps by default:
+.tab {
+  display: none;
+  color: #9da1a1;
+}
+
+Make circles that indicate the steps of the form:
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+Mark the active step:
+.step.active {
+  opacity: 1;
+}
+
+Mark the steps that are finished and valid:
+.step.finish {
+  background-color: #53514d;
+} */
 #contact {
-    background-color: #1b1b19;
-    color: #53514D;
+  background-color: #1b1b19;
+  color: rgb(171, 169, 169);
 }
 
 #contato {
-    text-align: center;
-    color: #9da1a1;
-}
-
-#form input {
-    background-color: #3c3b38;
-    color: whitesmoke;
-    border: #191918;
+  text-align: center;
+  color: #9da1a1;
 }
 
 #link a {
-    list-style: none;
-    padding-left: 10px;
+  list-style: none;
+  padding-left: 10px;
 }
 
 .map-wraper h2 {
-    font-size: 23px;
-    font-weight: 300;
+  font-size: 23px;
+  font-weight: 300;
 }
 
 .map-wraper2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .map {
-    width: 500px;
-    height: 500px;
-    background: white;
-    border: 5px solid rgb(200, 200, 200);
+  width: 500px;
+  height: 500px;
+  background: white;
+  border: 5px solid rgb(200, 200, 200);
 }
 
-@media screen and (max-width:500px) {
-    #typing {
-        font-size: 20px;
-        width: 100%;
-        height: 500px;
-    }
-    #text {
-        font-size: 20px;
-        font-weight: 500px;
-    }
-    #bar {
-        font-size: 30px;
-        font-weight: 500px;
-    }
-    .map {
-        width: 200px;
-    }
-    .titulo-autor .img-autor img {
-        width: 103%;
-    }
-    .sobre-autor {
-        width: 105%;
-    }
+@media screen and (max-width: 540px) {
+  #myNavbar {
+    width: 100%;
+  }
+  #link {
+    left: 30%;
+    align-items: center;
+  }
+  #typing {
+    font-size: 20px;
+    width: 100%;
+    height: 500px;
+  }
+  #text {
+    font-size: 20px;
+    font-weight: 500px;
+  }
+  #bar {
+    font-size: 30px;
+    font-weight: 500px;
+  }
+  .map {
+    width: 100%;
+  }
+  .titulo-autor .img-autor img {
+    width: 103%;
+  }
+  .sobre-autor {
+    width: 105%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #myNavbar {
+    width: 100%;
+  }
+  #link {
+    left: 25%;
+    align-items: center;
+  }
+  #typing {
+    font-size: 20px;
+    width: 100%;
+    height: 500px;
+  }
+  #text {
+    font-size: 20px;
+    font-weight: 500px;
+  }
+  #bar {
+    font-size: 30px;
+    font-weight: 500px;
+  }
+  .map {
+    width: 100%;
+  }
+  .titulo-autor .img-autor img {
+    width: 103%;
+  }
+  .sobre-autor {
+    width: 105%;
+  }
+}
+@media screen and (max-width: 412px) {
+  #link {
+    left: 25%;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  #myNavbar {
+    width: 100%;
+  }
+  #link {
+    left: 25%;
+    align-items: center;
+  }
+  #typing {
+    font-size: 20px;
+    width: 100%;
+    height: 500px;
+  }
+  #text {
+    font-size: 20px;
+    font-weight: 500px;
+  }
+  #bar {
+    font-size: 30px;
+    font-weight: 500px;
+  }
+  .map {
+    width: 100%;
+  }
+  .titulo-autor .img-autor img {
+    width: 103%;
+  }
+  .sobre-autor {
+    width: 105%;
+  }
 }
