@@ -10,3 +10,4 @@ Projeto feito com intuito de mostra minhas habilidades como analista de dados co
 - JS
   - Validação de formulário
   - Slider
+https://cloud.squirrel365.io/viewer/5C3575E893AC4A2BA602293661640E9D
